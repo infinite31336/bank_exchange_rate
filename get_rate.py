@@ -14,7 +14,6 @@ chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 driver.implicitly_wait(10)
 driver.get('https://rate.bot.com.tw/xrt?Lang=zh-TW')
-print(driver.title)
 currencies_dict = dict()
 
 try:
