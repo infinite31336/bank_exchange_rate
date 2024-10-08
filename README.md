@@ -1,1 +1,2 @@
-# bank_exchange_rate
+# 銀行匯率爬蟲
+透過 selenium 從台灣銀行取得匯率
